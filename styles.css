@@ -1,0 +1,141 @@
+/* Global styles */
+:root {
+    --primary-color: #2ecc71;
+    --dark-bg: #1a1a1a;
+    --darker-bg: #141414;
+    --text-color: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: var(--dark-bg);
+    color: var(--text-color);
+}
+
+/* Sidebar */
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 80px;
+    background-color: var(--darker-bg);
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-btn {
+    background-color: var(--primary-color);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.nav-item {
+    margin: 10px 0;
+    cursor: pointer;
+    color: var(--text-color);
+    font-size: 20px;
+}
+
+/* Main Content */
+.main-content {
+    margin-left: 80px;
+    padding: 40px;
+    display: flex;
+    gap: 40px;
+}
+
+/* Profile Section */
+.profile-section {
+    flex: 1;
+    background-color: var(--darker-bg);
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 400px;
+}
+
+.profile-img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.profile-name {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.profile-title {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-links a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+/* Info Section */
+.info-section {
+    flex: 2;
+    padding: 30px;
+}
+
+.about-me {
+    margin-bottom: 40px;
+}
+
+.section-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.stats {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.stat-item {
+    color: var(--primary-color);
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.service-card {
+    background-color: var(--darker-bg);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.service-card h3 {
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.service-icon {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: var(--primary-color);
+}

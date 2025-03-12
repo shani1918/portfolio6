@@ -1,0 +1,7 @@
+Please replace this text file with your profile photo named 'profile.jpg'
+
+The image should ideally be:
+- Square aspect ratio (1:1)
+- At least 500x500 pixels
+- Professional headshot
+- Good lighting and clear background
